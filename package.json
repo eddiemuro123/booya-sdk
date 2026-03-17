@@ -1,0 +1,52 @@
+{
+  "name": "booya-sdk",
+  "version": "1.0.0",
+  "description": "Real-time audience measurement and emotion detection SDK powered by Booya AI",
+  "type": "module",
+  "main": "./index.js",
+  "module": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "types": "./index.d.ts"
+    },
+    "./react": {
+      "import": "./react.js",
+      "types": "./react.d.ts"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "react.js",
+    "react.d.ts",
+    "PROMPT.md",
+    "README.md"
+  ],
+  "keywords": [
+    "booya",
+    "emotion-detection",
+    "facial-recognition",
+    "audience-measurement",
+    "engagement-analytics",
+    "wasm",
+    "real-time",
+    "ai"
+  ],
+  "author": "Booya AI",
+  "license": "MIT",
+  "homepage": "https://booya.ai",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/booya-ai/booya-sdk"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    }
+  }
+}
