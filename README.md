@@ -70,7 +70,7 @@ The SDK requires three WASM engine files at runtime:
 **Option A** — Host on your own CDN and pass `cdnBase`:
 
 ```javascript
-new BooyaSDK({ apiKey, appId, cdnBase: 'https://cdn.booya.ai/wasm/v1' });
+new BooyaSDK({ apiKey, appId, cdnBase: 'https://pub-8a8663514dfc4903b92d92bad4ead7b1.r2.dev' });
 ```
 
 **Option B** — Place files in your public directory (e.g. `/public/demo.js`).

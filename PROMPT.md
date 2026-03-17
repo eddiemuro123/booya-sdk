@@ -32,7 +32,7 @@ import { BooyaSDK } from 'booya-sdk';
 const booya = new BooyaSDK({
   apiKey: 'bya_YOUR_KEY',
   appId: 'YOUR_APP_ID',
-  cdnBase: 'https://cdn.booya.ai/wasm/v1', // or omit to load from /public
+  cdnBase: 'https://pub-8a8663514dfc4903b92d92bad4ead7b1.r2.dev', // or omit to load from /public
 });
 
 await booya.init('#camera');
@@ -75,7 +75,7 @@ function MeasurementView() {
   } = useBooya({
     apiKey: 'bya_YOUR_KEY',
     appId: 'YOUR_APP_ID',
-    cdnBase: 'https://cdn.booya.ai/wasm/v1',
+    cdnBase: 'https://pub-8a8663514dfc4903b92d92bad4ead7b1.r2.dev',
   });
 
   return (
